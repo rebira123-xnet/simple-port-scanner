@@ -1,48 +1,52 @@
-# simple-port-scanner
+ Simple Port Scanner
 
+This is a small cybersecurity project I built while learning Python and networking basics.
 
-Project Description
-This is a simple beginner-level cybersecurity project built using Python.  
-The tool scans a target IP address or website and checks common ports to see which ones are open.
+The idea is simple: you give a website or IP address, and the tool checks some common ports to see which ones are open
 
-It helped me understand basic networking concepts, TCP/IP communication, and how services run on different port
+ Why I built this
 
-How It Works
-- The user enters a website or IP address
-- The program converts the website into an IP address
-- It scans a list of common ports
-- It shows which ports are open on the target system
+I’m just starting in cybersecurity, and I wanted to understand how port scanning actually works in real systems.
+
+This project helped me connect what I learned in theory with something practical.
 
 
 
- Tools Used
-- Python
-- Socket library
+How it works
+
+- You enter a website or IP address  
+- It converts the website into an IP (if needed)  
+- It checks common ports one by one  
+- If a port is open, it shows it in the terminal  
 
 
 
- Features
-- Scans common ports (HTTP, HTTPS, SSH, etc.)
-- Converts domain names to IP addresses
-- Shows open ports clearly in terminal output
-- Simple and beginner-friendly
+ Tools used
+
+- Python  
+- socket module  
+  
 
 
- What I Learned
-- Basics of networking and TCP/IP
-- How port scanning works
-- Python socket programming
-- Introduction to cybersecurity reconnaissance
+ What I learned
 
-
- Disclaimer
-This tool is made for educational purposes only.  
-Do not use it on networks or systems without permission.
+- How ports work in networking  
+- Basic socket programming in Python  
+- How services like SSH, HTTP, HTTPS run on different ports  
+- Basic idea of reconnaissance in cybersecurity  
 
 
 
- Author
-Beginner Cybersecurity Student
+Disclaimer
+
+This project is only for learning purposes.  
+I will not use it on any system I don’t own or don’t have permission to test.
+
+
+ About me
+
+I’m a beginner in cybersecurity, still learning step by step.  
+This is one of my first practical projects in this field.
 
 
 
