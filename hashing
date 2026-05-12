@@ -1,0 +1,26 @@
+import hashlib
+
+print("=== Simple Hash Generator ===")
+
+text = input("Enter text to hash: ")
+
+# convert text into bytes
+encoded_text = text.encode()
+
+# generate hashes
+md5_hash = hashlib.md5(encoded_text).hexdigest()
+sha1_hash = hashlib.sha1(encoded_text).hexdigest()
+sha256_hash = hashlib.sha256(encoded_text).hexdigest()
+
+print("\nGenerated Hashes:\n")
+
+print("MD5: ")
+print(md5_hash)
+
+print("\nSHA1: ")
+print(sha1_hash)
+
+print("\nSHA256: ")
+print(sha256_hash)
+
+print("\nHash generation completed.")
